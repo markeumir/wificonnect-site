@@ -277,7 +277,7 @@ footer .copy{color:rgba(122,153,188,.45);font-size:.7rem;margin-top:8px;}
       <p>WiFi Connect ("the App") is a local Wi-Fi credential manager. It stores network names and passwords exclusively on your device and makes no network connections of any kind. This policy explains how data is handled and confirms what is not collected.</p>
       <p>This policy applies to all versions of the App distributed as an Android APK by MiRo Digital Tools, created by Mark Eumir Turingan.</p>
       <div class="highlight reveal">
-        <p><span>✓</span> The App collects no personal data, makes no network requests, contains no ads, and stores all information exclusively on your device. Biometric authentication (Pro feature) is handled entirely by the device OS — no biometric data is accessed or stored by the App.</p>
+        <p><span>✓</span> The App collects no personal data, makes no network requests, contains no ads, and stores all information exclusively on your device. App Lock authentication (Pro feature) uses your device PIN and is handled entirely by the device OS — no PIN or credential data is accessed or stored by the App.</p>
       </div>
     </div>
 
@@ -321,11 +321,11 @@ footer .copy{color:rgba(122,153,188,.45);font-size:.7rem;margin-top:8px;}
           <thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead>
           <tbody>
             <tr><td>Camera</td><td>Required only when you tap <strong>Scan QR Code</strong>. The camera is used exclusively to read Wi-Fi QR codes. No photos are taken, stored, or transmitted.</td></tr>
-            <tr><td>Biometric / Device credentials</td><td>Required only when <strong>App Lock is enabled</strong> (Pro feature). Used to authenticate the user before opening the app, triggering an export, or copying credentials. Authentication is handled entirely by the device operating system — the App does not access, store, or transmit any biometric data.</td></tr>
+            <tr><td>Device PIN / Screen Lock</td><td>Required only when <strong>App Lock is enabled</strong> (Pro feature). Used to authenticate the user before opening the app, triggering an export, or copying credentials. Authentication is handled entirely by the device operating system — the App does not access, store, or transmit your PIN.</td></tr>
           </tbody>
         </table>
       </div>
-      <p>The App does not request internet access, storage, microphone, contacts, location, call logs, or any other sensitive permissions. The camera permission is requested only when actively scanning a QR code. The biometric/device credential permission is requested only when App Lock is enabled by the user (Pro feature).</p>
+      <p>The App does not request internet access, storage, microphone, contacts, location, call logs, or any other sensitive permissions. The camera permission is requested only when actively scanning a QR code. The device PIN/screen lock permission is requested only when App Lock is enabled by the user (Pro feature).</p>
       <div class="success reveal">
         <strong>No internet permission.</strong> WiFi Connect cannot send data over the internet — it has no internet permission in its manifest.
       </div>
